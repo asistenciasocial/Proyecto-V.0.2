@@ -4,25 +4,24 @@
     box-sizing: border-box;
 }
 
-
 html, body {
     height: 100%;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     display: flex;
     flex-direction: column;
+    background-color: #f7f3eb;
 }
 
 .main-content {
     flex: 1;
 }
 
-
 .site-header {
-    background-color: #a08669;
-    color: #fff;
+    background-color: #d1bfab;
+    color: #000000;
     padding: 10px 0;
 }
 
@@ -34,38 +33,58 @@ body {
     align-items: center;
 }
 
-.logo-title {
-    font-size: 1.5em;
+.logo-image {
+    width: 350px;
+    height: auto;
 }
 
-.site-nav .nav-list {
+.site-nav {
+    margin-left: auto;
+}
+
+.nav-list {
     list-style: none;
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-item {
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .nav-link {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .nav-link:hover {
     text-decoration: underline;
 }
 
+.nav-icon {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s;
+}
+
+.nav-icon:hover {
+    transform: scale(1.2);
+}
 
 .site-footer {
-    background-color: #a08669;
-    color: #fff;
+    background-color: #d1bfab;
+    color: #000000;
     padding: 10px 0;
     text-align: center;
 }
 
-
 .footer-text {
     margin: 0;
+    color: black;
+}
+
+.red-text {
+    color: rgb(0, 0, 0);
 }
